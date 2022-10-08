@@ -1,5 +1,5 @@
 import React from 'react'
-import './abaut.css';
+import './about.css';
 
 const abaut = () => {
   return (
