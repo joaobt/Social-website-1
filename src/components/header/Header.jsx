@@ -2,6 +2,8 @@ import React from 'react'
 import './header.css'
 import CTA from'./CTA'
 import ME from '../../assents/me.png'
+import HeaderSocials from './HeaderSocials'
+
 
 
 const header = () => {
@@ -12,6 +14,8 @@ const header = () => {
         <h1>Hajia Bintu</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA />
+        <HeaderSocials/>
+      
         
         
         <div className="me">
