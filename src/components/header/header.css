@@ -25,13 +25,13 @@ haader {
     align-items: center;
     gap: 0.8rem;
     left: 0;
-    bottom: 3rem;
+    bottom: 2rem;
 }
 
 .header__socials {
     content: "";
     width: 1px;
-    height: 2rem;
+    height: 1.5rem;
     background: var(--color-primary);
 }
 /*================= ME ==============*/
@@ -42,7 +42,7 @@ haader {
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 12rem 12rem  0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }

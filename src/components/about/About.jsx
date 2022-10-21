@@ -1,10 +1,10 @@
 import React from 'react'
 import './about.css';
 
-const abaut = () => {
+const about = () => {
   return (
     <section id='about'>about</section>
   )
 }
 
-export default abaut
+export default about
