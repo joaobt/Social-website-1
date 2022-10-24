@@ -20,40 +20,42 @@ haader {
 /*=================HEADER SOCIALS==============*/
 
 .header__socials {
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
+    position: absolute;
     left: 0;
-    bottom: 2rem;
+    bottom: 3rem;
 }
 
-.header__socials {
+.header__socials::after{
     content: "";
     width: 1px;
-    height: 1.5rem;
+    height: 2rem;
     background: var(--color-primary);
 }
 /*================= ME ==============*/
 .me {
-    background: linear-gradient(var(--color-primary),transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem  0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+   background: linear-gradient(var(--color-primary),transparent);
+   width:  22rem;
+   height: 30rem;
+   position: absolute;
+   left: calc(50% - 11rem); 
+   margin-top: 4rem; 
+   border-radius: 12rem 12rem 0 0;
+   overflow:hidden;
+   padding: 5rem 1.5.rem 1.5rem 1.5rem;
 }
-/*=================SCROLL ===================*/
+/*=================SCROLL DOWN===================*/
 .scroll__down {
     position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
+    right: -2.3rem;   /* obs: -2rem*/
+    bottom: 5rem;         /* obs: -2rem*/
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+    
 }
 /*==================MEDIA QUERIES (MEDIA DEVICES)=========*/
 @media screen and (max-width: 1024px) {
@@ -70,6 +72,6 @@ haader {
 
     .header__socials,
     .scroll__down{
-        display: none;
+           display: none-0;
     }
 }
