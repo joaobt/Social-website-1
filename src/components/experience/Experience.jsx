@@ -9,47 +9,62 @@ const experience = () => {
       <h2>My Experiencia</h2>
 
       <div className="container experience__container">
+
         <div className="experience__frontend">
+
           <h3>Frontend Development</h3>
+
           <div className="experience__content">
+
+
             <article className="experience__details">
               <BsPatchCheckFill />
               <h4>HTML</h4>
               <small className="text-light">Experienced</small>
             </article>
+
             <article className="experience__details">
               <BsPatchCheckFill />
               <h4>CSS</h4>
               <small className="text-light">Intermediate</small>
             </article>
+
             <article className="experience__details">
               <BsPatchCheckFill />
               <h4>Javascript</h4>
               <small className="text-light">Experienced</small>
             </article>
+
             <article className="experience__details">
               <BsPatchCheckFill />
               <h4>Bootstrap</h4>
               <small className="text-light">Experienced</small>
             </article>
+
             <article className="experience__details">
               <BsPatchCheckFill />
               <h4>Tailwind</h4>
               <small className="text-light">Experienced</small>
             </article>
+
             <article className="experience__details">
               <BsPatchCheckFill />
               <h4>React</h4>
               <small className="text-light">Experienced</small>
             </article>
+
           </div>
         </div>
+        
+        {/*=====================================END OF FRONTEND=================================================*/}
 
-        {/*END OF FRONTEND*/}
+
 
         <div className="experience__backend">
+
           <h3>Bckeend Development</h3>
 
+           <div className="experience__content">
           <article className="experience__details">
             <BsPatchCheckFill />
             <h4>Node JS</h4>
@@ -57,10 +72,10 @@ const experience = () => {
           </article>
           <article className="experience__details">
             <BsPatchCheckFill />
-            <h4>mongoDB</h4>
+            <h4>MongoDB</h4>
             <small className="text-light">Intermediate</small>
           </article>
-          <div className="experience__content">
+
             <article className="experience__details">
               <BsPatchCheckFill />
               <h4>PHP</h4>
@@ -69,9 +84,16 @@ const experience = () => {
 
             <article className="experience__details">
               <BsPatchCheckFill />
-              <h4>python</h4>
-              <small className="text-light">Intermediate</small>
+              <h4>MySQL</h4>
+              <small className="text-light">Basic</small>
             </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill />
+              <h4>Python</h4>
+              <small className="text-light">Expe</small>
+            </article>
+
           </div>
         </div>
       </div>
@@ -79,3 +101,6 @@ const experience = () => {
   );
 };
 export default experience;
+          
+            
+            
