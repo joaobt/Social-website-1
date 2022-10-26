@@ -59,7 +59,14 @@
   }
   /*=======================MEDIA QUERIES(SMALL DEVICES)=================================================================*/
   @media screem and (max-with: 600px) {
-      
+      .experience__container {
+        gap: 1rem;
+      }
+
+     .experience__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+     }
   }
  
  
