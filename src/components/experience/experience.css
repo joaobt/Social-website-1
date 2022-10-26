@@ -37,6 +37,11 @@
     gap: 1rem;
 }
 
+.experience__details {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
 
 
 
