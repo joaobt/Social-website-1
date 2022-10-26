@@ -27,7 +27,26 @@
 }
 
 .portifolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*========================================MID QUERIES (MEDIUM DEVICES)===============================================*/
+
+@media screen and (max-width:1024px) {
+    .portifolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
     
 }
 
+/*========================================MID QUERIES (MEDIUM DEVICES)===============================================*/
 
+@media screen and(max-width:600px) {
+    .portifolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
