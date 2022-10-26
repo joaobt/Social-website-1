@@ -130,8 +130,8 @@ const experience = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 export default experience;
 
           
