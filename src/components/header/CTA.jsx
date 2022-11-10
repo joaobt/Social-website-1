@@ -1,5 +1,6 @@
 import React from 'react'
 import CV from '../../assents/cv.pdf'
+
  const CTA = () => {
   return (
     <div className='cta'>

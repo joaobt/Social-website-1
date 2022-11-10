@@ -48,7 +48,7 @@ import { useRef, } from "react";
                         <BsWhatsapp className="contact__option-icon" />
                         <h4>WhatssApp</h4>
                         <h5>+123456789</h5>
-                        <a href="https://web.whatsapp.com/" target="__blank">
+                        <a href="https://api.WhatsApp.com/send?phone+55-319966567563" target="__blank">
                             Send message
                         </a>
                     </article>
@@ -56,9 +56,9 @@ import { useRef, } from "react";
                 {/*=================================END CONTACT OPTION============*/}
                 <form ref={form} onSubmit={sendEmail}>
                     
-                       <input type="text" name="name"  placeholder="Your Full Name"required />
-                       <input type="Email" name="email" placeholder="Your Email" required />
-                       <textarea name="message"rows="7"placeholder="Your Message"required></textarea>
+                       <input type="text" name="name"  placeholder="Your Full Name" required />
+                       <input type="email" name="email" placeholder="Your Email" required />
+                       <textarea name="message"rows="7" placeholder="Your Message"required ></textarea>
                        <button type="submit" className="btn btn-primary">Send Message</button>
                 </form>
             </div>
